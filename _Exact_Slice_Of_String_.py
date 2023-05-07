@@ -1,0 +1,5 @@
+n=input()
+a=int(input())
+b=int(input())
+s=slice(a,b+1)
+print(n[s])
