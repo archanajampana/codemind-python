@@ -3,7 +3,7 @@ c=0
 for i in range(1,n):
     if n%i==0:
         c+=i
-if c==n:
-    print('True')
+if n==c:
+    print("True")
 else:
-    print('False')
+    print("False")
