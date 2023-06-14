@@ -1,15 +1,9 @@
-num = int(input())
-
-# If number is greater than 1
-if num > 1:
-   # Check if factor exist  
-   for i in range(2,num):
-       if (num % i) == 0:
-           print("not a prime")
-           break
-   else:
-       print( "prime")
-       
-# Else if the input number is less than or equal to 1
+n=int(input())
+c=0
+for i in range(2,n):
+    if n%i==0:
+        c+=1
+if c==0:
+    print("prime")
 else:
     print("not a prime")
