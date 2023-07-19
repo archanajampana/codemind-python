@@ -1,0 +1,7 @@
+n,m=map(int,input().split())
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
+x=set(a)
+y=set(b)
+uncomman_elements=x.symmetric_difference(y)
+print(len(uncomman_elements))
